@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ParaBankSuite" duration-ms="155218" started-at="2021-01-05T18:25:02 EET" finished-at="2021-01-05T18:27:37 EET">
+    <groups>
+    </groups>
+    <test name="ParaBankTest" duration-ms="155218" started-at="2021-01-05T18:25:02 EET" finished-at="2021-01-05T18:27:37 EET">
+      <class name="test.RegisterTest">
+        <test-method status="PASS" signature="beforeMethod([Ljava.lang.Object;)[pri:0, instance:test.RegisterTest@3e6fa38a]" name="beforeMethod" is-config="true" duration-ms="23576" started-at="2021-01-05T18:25:02 EET" finished-at="2021-01-05T18:25:26 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@50b494a6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Register()[pri:0, instance:test.RegisterTest@3e6fa38a]" name="Register" duration-ms="4119" started-at="2021-01-05T18:25:26 EET" finished-at="2021-01-05T18:25:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.RegisterTest@3e6fa38a]" name="afterMethod" is-config="true" duration-ms="86" started-at="2021-01-05T18:25:30 EET" finished-at="2021-01-05T18:25:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- test.RegisterTest -->
+      <class name="test.requestLoanTest">
+        <test-method status="PASS" signature="beforeMethod([Ljava.lang.Object;)[pri:0, instance:test.requestLoanTest@42d80b78]" name="beforeMethod" is-config="true" duration-ms="14674" started-at="2021-01-05T18:27:19 EET" finished-at="2021-01-05T18:27:33 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3088660d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="requestLoan()[pri:0, instance:test.requestLoanTest@42d80b78]" name="requestLoan" duration-ms="1807" started-at="2021-01-05T18:27:33 EET" finished-at="2021-01-05T18:27:35 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestLoan -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.requestLoanTest@42d80b78]" name="afterMethod" is-config="true" duration-ms="2227" started-at="2021-01-05T18:27:35 EET" finished-at="2021-01-05T18:27:37 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- test.requestLoanTest -->
+      <class name="test.transferFundsTest">
+        <test-method status="PASS" signature="beforeMethod([Ljava.lang.Object;)[pri:0, instance:test.transferFundsTest@1e88b3c]" name="beforeMethod" is-config="true" duration-ms="29771" started-at="2021-01-05T18:26:34 EET" finished-at="2021-01-05T18:27:04 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@47428937]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="fundTransfer()[pri:0, instance:test.transferFundsTest@1e88b3c]" name="fundTransfer" duration-ms="8201" started-at="2021-01-05T18:27:04 EET" finished-at="2021-01-05T18:27:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fundTransfer -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.transferFundsTest@1e88b3c]" name="afterMethod" is-config="true" duration-ms="6324" started-at="2021-01-05T18:27:12 EET" finished-at="2021-01-05T18:27:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- test.transferFundsTest -->
+      <class name="test.loginTest">
+        <test-method status="PASS" signature="beforeMethod([Ljava.lang.Object;)[pri:0, instance:test.loginTest@66a3ffec]" name="beforeMethod" is-config="true" duration-ms="21878" started-at="2021-01-05T18:25:30 EET" finished-at="2021-01-05T18:25:52 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1fc32e4f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:test.loginTest@66a3ffec]" name="Login" duration-ms="4938" started-at="2021-01-05T18:25:52 EET" finished-at="2021-01-05T18:25:57 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.loginTest@66a3ffec]" name="afterMethod" is-config="true" duration-ms="3134" started-at="2021-01-05T18:25:57 EET" finished-at="2021-01-05T18:26:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- test.loginTest -->
+      <class name="test.openAccountTest">
+        <test-method status="PASS" signature="beforeMethod([Ljava.lang.Object;)[pri:0, instance:test.openAccountTest@77caeb3e]" name="beforeMethod" is-config="true" duration-ms="25012" started-at="2021-01-05T18:26:00 EET" finished-at="2021-01-05T18:26:25 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2f48b3d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="openAccount()[pri:0, instance:test.openAccountTest@77caeb3e]" name="openAccount" duration-ms="7313" started-at="2021-01-05T18:26:25 EET" finished-at="2021-01-05T18:26:32 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccount -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.openAccountTest@77caeb3e]" name="afterMethod" is-config="true" duration-ms="2089" started-at="2021-01-05T18:26:32 EET" finished-at="2021-01-05T18:26:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- test.openAccountTest -->
+    </test> <!-- ParaBankTest -->
+  </suite> <!-- ParaBankSuite -->
+</testng-results>

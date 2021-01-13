@@ -1,0 +1,17 @@
+[
+  {
+    "registerInfo": {
+      "firstName": "mohamed",
+      "lastName": "hawam",
+      "addressStreet": "rehab",
+      "city": "cairo",
+      "state": "cairo",
+      "zipCode": "11250",
+      "phoneNumber": "+2222222222",
+      "ssn": "12345678912345",
+      "username": "muhammedhawam5",
+      "password": "123@test",
+      "repeatedPassword": "123@test"
+    }
+  }
+]

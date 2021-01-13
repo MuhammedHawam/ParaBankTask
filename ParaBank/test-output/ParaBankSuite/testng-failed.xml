@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ParaBankSuite]">
+  <test thread-count="5" name="ParaBankTest(failed)">
+    <classes>
+      <class name="test.transferFundsTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="fundTransfer"/>
+        </methods>
+      </class> <!-- test.transferFundsTest -->
+      <class name="test.openAccountTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="openAccount"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- test.openAccountTest -->
+      <class name="test.requestLoanTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="requestLoan"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- test.requestLoanTest -->
+    </classes>
+  </test> <!-- ParaBankTest(failed) -->
+</suite> <!-- Failed suite [ParaBankSuite] -->

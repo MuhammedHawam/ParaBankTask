@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="requestLoanSuite">
+    <test thread-count="5" name="requestLoanTest">
+        <classes>
+            <class name="test.requestLoanTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,10 @@
+{
+
+  "loanInfo":{
+
+    "fromAcc":"1",
+    "loanAmount": "100",
+    "downPayment": "50"
+  }
+
+}
